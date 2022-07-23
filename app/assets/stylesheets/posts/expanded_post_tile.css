@@ -1,0 +1,22 @@
+.expanded-post-tile {
+  border: 3px solid black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.expanded-post-tile .post-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expanded-post-tile .post-data .comments-likes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.expanded-post-tile .post-data h2 {
+  font-size: 1.2rem;
+}

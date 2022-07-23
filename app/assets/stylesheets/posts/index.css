@@ -1,0 +1,24 @@
+#all-posts-page {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#all-posts-page .button-container {
+  margin: 0 auto;
+}
+
+#all-posts-page .button-container button {
+  border: 3px solid black;
+  padding: 15px;
+  cursor: pointer;
+  height: 50px;
+}
+
+#all-posts-page ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

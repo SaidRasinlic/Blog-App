@@ -1,0 +1,10 @@
+#users-list-page {
+  padding: 40px 0;
+}
+
+#users-list-page ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

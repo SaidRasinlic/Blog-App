@@ -1,0 +1,12 @@
+<% stylesheet_link_tag 'users/user_tile' %>
+<%= link_to user do %>
+  <div class="user-tile">
+    <div class="user-image">
+      <img src="<%= user.photo %>" alt="Profile Picture">
+    </div>
+    <div class="user-details">
+      <h1><%= user.name %></h1>
+      <p>Number of Posts: <%= user.posts_counter || 0 %></p>
+    </div>
+  </div>
+<% end %>

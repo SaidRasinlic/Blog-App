@@ -1,0 +1,23 @@
+.comments-tile {
+  border: 3px solid black;
+  padding: 15px;
+}
+
+.comments-tile ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px !important;
+}
+
+.comments-tile li {
+  display: flex;
+  gap: 10px;
+}
+
+.comments-tile p {
+  font-size: 0.85rem;
+}
+
+.comments-tile .commenter {
+  font-weight: 600;
+}

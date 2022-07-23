@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content {
+  margin: 0 10%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.alert {
+  border: 3px solid black;
+  margin: 20px 10%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-button {
+  border: 3px solid black;
+  height: 40px;
+  width: 120px;
+  margin: 0 auto;
+  cursor: pointer;
+}
