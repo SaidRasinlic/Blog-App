@@ -1,1 +1,6 @@
-<h1>You are in posts/show</h1>
+<% stylesheet_link_tag 'posts/show' %>
+
+<div id="post-page" class="content">
+  <%= render 'posts/expanded_post_tile', post: @post %>
+  <%= render 'posts/comments_tile', comments: @post.comments %>
+</div>

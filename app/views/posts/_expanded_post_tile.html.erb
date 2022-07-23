@@ -1,0 +1,12 @@
+<% stylesheet_link_tag 'posts/expanded_post_tile' %>
+
+<div class="expanded-post-tile">
+  <div class="post-data">
+    <h2>Post #<%= post.id %> by <%= post.author.name %></h2>
+    <div class="comments-likes">
+      <p>Comments <%= post.comments_counter || 0 %></p>
+      <p>Likes <%= post.likes_counter || 0 %></p>
+    </div>
+  </div>
+  <p><%= post.text %></p>
+</div>
