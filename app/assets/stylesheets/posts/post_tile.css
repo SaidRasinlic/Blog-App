@@ -1,0 +1,23 @@
+.post-tile {
+  border: 3px solid black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post-tile h2 {
+  font-size: 1.2rem;
+}
+
+.post-tile .post-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.post-tile .comments-likes {
+  display: flex;
+  gap: 20px;
+  align-self: end;
+}
